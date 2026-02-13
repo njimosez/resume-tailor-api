@@ -64,5 +64,5 @@ logging:
 
 tavily:
   base-url: ${TAVILY_BASE_URL:https://api.tavily.com}
-  api-key: ${TAVILY_API_KEY:YourKeyHere-}
+  api-key: ${TAVILY_API_KEY:tvlyyourapikeyhere}
 
