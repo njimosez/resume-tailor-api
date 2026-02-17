@@ -1,4 +1,4 @@
-<img width="1769" height="977" alt="image" src="https://github.com/user-attachments/assets/ae7432a5-850c-42af-9392-102704ffa093" /><img width="1769" height="977" alt="image" src="https://github.com/user-attachments/assets/ae7432a5-850c-42af-9392-102704ffa093" /># Resume Tailor API
+# Resume Tailor API
 
 Spring Boot backend for AI-driven resume tailoring with Spring AI, OpenAI GPT models, Tavily web search, and Postgres + pgvector for vector storage.
 
