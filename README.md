@@ -33,25 +33,27 @@ Spring Boot backend for AI-driven resume tailoring with Spring AI, OpenAI GPT mo
 - Create and get API Keys for Open API and Tavily 
 - Configure and set up a postgres database with user name and password 
 - Update the environment variables using the above credentials
-- Run progress
-- Run the App ```bash 
-mvn spring-boot:run
-```
+- Run the Spring Boot App 
 
-## Using Postman
+## Test using Postman
 - `POST /api/resume/tailor` (multipart): `file` required, `jobQuery` optional
 - `GET /api/resume/{id}`
 - `GET /api/resume/{id}/download`
-## Using the Resume API 
+## Test using the Resume API 
 - Set up and Run the Resume Tailor UI(https://github.com/njimosez/resume-tailor-ui)
+
 ## ScreenShots
-#API
+# API Views
 <img width="1498" height="811" alt="image" src="https://github.com/user-attachments/assets/c8753dfd-4680-4d95-a4bb-509299317fb4" />
 <img width="1516" height="450" alt="image" src="https://github.com/user-attachments/assets/16bc95ca-96be-49b3-a41a-870483d0ab4d" />
-# from UI
-<img width="1870" height="973" alt="image" src="https://github.com/user-attachments/assets/ae2fdbaa-ae31-4f39-851d-71bd89ed616b" />
-<img width="1769" height="977" alt="image" src="https://github.com/user-attachments/assets/e6ed6fb6-2980-4ff6-8cdb-c415d35d6956" />
+# UI Views
+<img width="1838" height="952" alt="image" src="https://github.com/user-attachments/assets/f94177b7-45b0-4de2-8a13-0096e88c6040" />
+<img width="1866" height="972" alt="image" src="https://github.com/user-attachments/assets/ab3a702d-9f17-4520-89f0-5d15065d26a0" />
 
 
+<img width="1915" height="991" alt="image" src="https://github.com/user-attachments/assets/e9b1f712-5f1e-4d90-8c81-c33757d54e55" />
+
+
+<img width="1769" height="977" alt="image" src="https://github.com/user-attachments/assets/4f2c16c0-3751-4620-8400-df1ae3226ec8" />
 
 
