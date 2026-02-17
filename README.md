@@ -1,4 +1,4 @@
-# Resume Tailor API
+<img width="1769" height="977" alt="image" src="https://github.com/user-attachments/assets/ae7432a5-850c-42af-9392-102704ffa093" /><img width="1769" height="977" alt="image" src="https://github.com/user-attachments/assets/ae7432a5-850c-42af-9392-102704ffa093" /># Resume Tailor API
 
 Spring Boot backend for AI-driven resume tailoring with Spring AI, OpenAI GPT models, Tavily web search, and Postgres + pgvector for vector storage.
 
@@ -44,3 +44,14 @@ mvn spring-boot:run
 - `GET /api/resume/{id}/download`
 ## Using the Resume API 
 - Set up and Run the Resume Tailor UI(https://github.com/njimosez/resume-tailor-ui)
+## ScreenShots
+#API
+<img width="1498" height="811" alt="image" src="https://github.com/user-attachments/assets/c8753dfd-4680-4d95-a4bb-509299317fb4" />
+<img width="1516" height="450" alt="image" src="https://github.com/user-attachments/assets/16bc95ca-96be-49b3-a41a-870483d0ab4d" />
+# from UI
+<img width="1870" height="973" alt="image" src="https://github.com/user-attachments/assets/ae2fdbaa-ae31-4f39-851d-71bd89ed616b" />
+<img width="1769" height="977" alt="image" src="https://github.com/user-attachments/assets/e6ed6fb6-2980-4ff6-8cdb-c415d35d6956" />
+
+
+
+
