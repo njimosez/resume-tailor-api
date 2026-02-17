@@ -12,7 +12,6 @@ Spring Boot backend for AI-driven resume tailoring with Spring AI, OpenAI GPT mo
 ## Prerequisites
 - Java 21
 - Maven 3.9+
-- Docker (for Postgres + pgvector)
 - OpenAI API key
 - Tavily API key
 
@@ -21,15 +20,14 @@ Spring Boot backend for AI-driven resume tailoring with Spring AI, OpenAI GPT mo
 - `OPENAI_CHAT_MODEL` (default: `gpt-4o-mini`)
 - `OPENAI_EMBEDDING_MODEL` (default: `text-embedding-3-small`)
 - `TAVILY_API_KEY`
-- `POSTGRES_URL` (default: `jdbc:postgresql://localhost:5432/resume_tailor`)
-- `POSTGRES_USER` (default: `resume_tailor`)
-- `POSTGRES_PASSWORD` (default: `resume_tailor`)
-- `OTLP_TRACING_ENDPOINT` (default: `http://localhost:4317`)
-- `LOG_FILE` (default: `./target/logs/app.log`)
+- `POSTGRES_URL` 
+- `POSTGRES_USER` 
+- `POSTGRES_PASSWORD`
+
 
 ## Run Postgres + pgvector
 ```bash
-docker compose up -d
+configure and set up a postgres database with user name and password 
 ```
 
 ## Observability (Grafana)
@@ -51,7 +49,11 @@ Run the API, then check:
 - Logs: Grafana -> Explore -> Loki
 
 ## Run the API
+- Create and get API Keys for Open API and Tavily 
+- Configure and set up a postgres database with user name and password 
+- Update the environment variables using the above credentials 
 ```bash
+Ensure the 
 mvn spring-boot:run
 ```
 
