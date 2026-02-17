@@ -3,7 +3,7 @@
 Spring Boot backend for AI-driven resume tailoring with Spring AI, OpenAI GPT models, Tavily web search, and Postgres + pgvector for vector storage.
 
 ## Features
-- Upload resume files for processing
+- Upload a resume file for processing
 - Extract resume content and generate job search query
 - Use Tavily to search and retrieve job details
 - Tailor the resume to match job descriptions
@@ -24,40 +24,18 @@ Spring Boot backend for AI-driven resume tailoring with Spring AI, OpenAI GPT mo
 - `POSTGRES_USER` 
 - `POSTGRES_PASSWORD`
 
-
-## Run Postgres + pgvector
-```bash
-configure and set up a postgres database with user name and password 
-```
-
-## Observability (Grafana)
-The docker compose stack also includes Prometheus, Grafana, Loki, Tempo, and Promtail.
-
-- Grafana: http://localhost:3000 (admin/admin)
-- Prometheus: http://localhost:9090
-- Loki: http://localhost:3100
-- Tempo: http://localhost:3200
-
-Start the stack (includes Postgres + observability services):
-```bash
-docker compose up -d
-```
-
-Run the API, then check:
-- Metrics: http://localhost:8080/actuator/prometheus
-- Traces: Grafana -> Explore -> Tempo
-- Logs: Grafana -> Explore -> Loki
-
 ## Run the API
 - Create and get API Keys for Open API and Tavily 
 - Configure and set up a postgres database with user name and password 
-- Update the environment variables using the above credentials 
-```bash
-Ensure the 
+- Update the environment variables using the above credentials
+- Run progress
+- Run the App ```bash 
 mvn spring-boot:run
 ```
 
-## API
+## Using Postman
 - `POST /api/resume/tailor` (multipart): `file` required, `jobQuery` optional
 - `GET /api/resume/{id}`
 - `GET /api/resume/{id}/download`
+## Using the Resume API 
+- Set up and Run the Resume Tailor UI(https://github.com/njimosez/resume-tailor-ui)
