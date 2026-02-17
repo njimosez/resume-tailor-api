@@ -24,6 +24,11 @@ Spring Boot backend for AI-driven resume tailoring with Spring AI, OpenAI GPT mo
 - `POSTGRES_USER` 
 - `POSTGRES_PASSWORD`
 
+  <img width="1274" height="824" alt="image" src="https://github.com/user-attachments/assets/b1c9c448-a8ef-4840-9341-49a776b0579f" />
+<img width="1524" height="816" alt="image" src="https://github.com/user-attachments/assets/cf4d5df4-289b-49fa-838b-d6fc905bc81e" />
+<img width="1510" height="858" alt="image" src="https://github.com/user-attachments/assets/18bd0577-ce35-409f-bf42-a9abf2c0fb5a" />
+
+
 ## Run the API
 - Create and get API Keys for Open API and Tavily 
 - Configure and set up a postgres database with user name and password 
